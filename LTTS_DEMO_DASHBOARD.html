@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genuity 2.0 — LTTS MTR Validation Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e0e6ed;overflow-x:hidden}
+.hero{background:linear-gradient(135deg,#0a0e1a 0%,#1a1f3a 50%,#0d1225 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 40%,rgba(59,130,246,0.08) 0%,transparent 50%),radial-gradient(circle at 70% 60%,rgba(16,185,129,0.06) 0%,transparent 50%);animation:pulse 8s ease-in-out infinite alternate}
+@keyframes pulse{0%{opacity:0.5;transform:scale(1)}100%{opacity:1;transform:scale(1.05)}}
+.hero-content{position:relative;z-index:1;max-width:900px}
+.hero h1{font-size:3.5rem;font-weight:900;background:linear-gradient(135deg,#3b82f6,#10b981,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:16px;line-height:1.1}
+.hero .subtitle{font-size:1.3rem;color:#94a3b8;margin-bottom:40px;font-weight:300}
+.hero .badge{display:inline-block;background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#60a5fa;padding:8px 20px;border-radius:50px;font-size:0.85rem;font-weight:500;margin-bottom:24px}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+section{padding:80px 0}
+.section-title{font-size:2.2rem;font-weight:800;text-align:center;margin-bottom:12px;background:linear-gradient(135deg,#e0e6ed,#94a3b8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.section-subtitle{text-align:center;color:#64748b;font-size:1.05rem;margin-bottom:48px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}
+.card{background:rgba(30,41,59,0.6);border:1px solid rgba(100,116,139,0.2);border-radius:16px;padding:28px;backdrop-filter:blur(10px);transition:all 0.3s ease}
+.card:hover{border-color:rgba(59,130,246,0.4);transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,0,0,0.3)}
+.card h3{font-size:1.15rem;font-weight:700;margin-bottom:12px;color:#f1f5f9}
+.card p{color:#94a3b8;font-size:0.92rem;line-height:1.7}
+.card .tag{display:inline-block;padding:4px 12px;border-radius:20px;font-size:0.75rem;font-weight:600;margin-bottom:12px}
+.tag-pass{background:rgba(16,185,129,0.15);color:#34d399;border:1px solid rgba(16,185,129,0.3)}
+.tag-fail{background:rgba(239,68,68,0.15);color:#f87171;border:1px solid rgba(239,68,68,0.3)}
+.tag-review{background:rgba(251,191,36,0.15);color:#fbbf24;border:1px solid rgba(251,191,36,0.3)}
+.tag-info{background:rgba(99,102,241,0.15);color:#818cf8;border:1px solid rgba(99,102,241,0.3)}
+.evidence-chain{background:rgba(16,185,129,0.05);border:1px solid rgba(16,185,129,0.2);border-radius:16px;padding:32px;margin:48px 0;text-align:center}
+.evidence-chain h3{color:#34d399;font-size:1.3rem;margin-bottom:20px}
+.chain{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;font-size:0.95rem;font-weight:600}
+.chain-node{background:rgba(30,41,59,0.8);border:1px solid rgba(59,130,246,0.3);padding:10px 18px;border-radius:10px;color:#60a5fa}
+.chain-arrow{color:#34d399;font-size:1.2rem}
+table{width:100%;border-collapse:collapse;margin:24px 0}
+th{background:rgba(30,41,59,0.8);color:#94a3b8;font-weight:600;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;padding:14px 16px;text-align:left;border-bottom:1px solid rgba(100,116,139,0.2)}
+td{padding:14px 16px;border-bottom:1px solid rgba(100,116,139,0.1);font-size:0.9rem;color:#cbd5e1}
+tr:hover{background:rgba(59,130,246,0.05)}
+.highlight-row{background:rgba(16,185,129,0.08)!important}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin:40px 0}
+.stat-card{background:linear-gradient(135deg,rgba(30,41,59,0.8),rgba(30,41,59,0.4));border:1px solid rgba(100,116,139,0.2);border-radius:14px;padding:24px;text-align:center;transition:all 0.3s}
+.stat-card:hover{border-color:rgba(59,130,246,0.4);transform:translateY(-2px)}
+.stat-value{font-size:2.5rem;font-weight:900;margin-bottom:4px}
+.stat-value.green{color:#34d399}
+.stat-value.blue{color:#60a5fa}
+.stat-value.purple{color:#a78bfa}
+.stat-value.yellow{color:#fbbf24}
+.stat-value.red{color:#f87171}
+.stat-label{color:#64748b;font-size:0.8rem;font-weight:500;text-transform:uppercase;letter-spacing:0.05em}
+.cost-bar{display:flex;align-items:center;gap:12px;margin:8px 0}
+.cost-bar-label{width:200px;font-size:0.85rem;font-weight:500;color:#94a3b8;text-align:right;flex-shrink:0}
+.cost-bar-track{flex:1;height:28px;background:rgba(30,41,59,0.6);border-radius:8px;overflow:hidden;position:relative}
+.cost-bar-fill{height:100%;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;font-size:0.75rem;font-weight:700;color:#fff;transition:width 1s ease}
+.cost-bar-fill.a{background:linear-gradient(90deg,#ef4444,#dc2626);width:100%}
+.cost-bar-fill.b{background:linear-gradient(90deg,#f59e0b,#d97706);width:58%}
+.cost-bar-fill.c{background:linear-gradient(90deg,#3b82f6,#2563eb);width:29%}
+.cost-bar-fill.d{background:linear-gradient(90deg,#8b5cf6,#7c3aed);width:39%}
+.cost-bar-fill.e{background:linear-gradient(90deg,#10b981,#059669);width:19%}
+.cta{background:linear-gradient(135deg,#1e3a5f,#1a2744);border:1px solid rgba(59,130,246,0.3);border-radius:20px;padding:48px;text-align:center;margin:48px 0}
+.cta h2{font-size:1.8rem;font-weight:800;color:#f1f5f9;margin-bottom:16px}
+.cta p{color:#94a3b8;font-size:1.05rem;max-width:700px;margin:0 auto 32px}
+.btn{display:inline-block;background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;padding:14px 36px;border-radius:12px;font-weight:700;text-decoration:none;font-size:1rem;transition:all 0.3s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(59,130,246,0.4)}
+.footer{text-align:center;padding:40px 20px;color:#475569;font-size:0.8rem;border-top:1px solid rgba(100,116,139,0.15)}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<div class="hero-content">
+<div class="badge">LIVE DEMO — SA-240 304L MTR VALIDATION</div>
+<h1>Genuity 2.0<br>Evidence-First Industrial Reconciliation</h1>
+<p class="subtitle">12 documents. 83 fields auto-accepted. 7 exceptions caught.<br>All in under 1 second. Zero guesswork.</p>
+</div>
+</div>
+
+<section>
+<div class="container">
+<h2 class="section-title">Pipeline Results at a Glance</h2>
+<p class="section-subtitle">Real NAS Heat AN4T chemistry data processed through Genuity</p>
+<div class="stat-grid">
+<div class="stat-card"><div class="stat-value blue">12</div><div class="stat-label">Documents Processed</div></div>
+<div class="stat-card"><div class="stat-value green">83</div><div class="stat-label">Fields Auto-Accepted</div></div>
+<div class="stat-card"><div class="stat-value green">100%</div><div class="stat-label">Evidence Coverage</div></div>
+<div class="stat-card"><div class="stat-value yellow">7</div><div class="stat-label">Exceptions Caught</div></div>
+<div class="stat-card"><div class="stat-value purple">21/21</div><div class="stat-label">Integrity Checks PASS</div></div>
+<div class="stat-card"><div class="stat-value red">BLOCKED</div><div class="stat-label">ERP Write-Back</div></div>
+</div>
+</div>
+</section>
+
+<section style="background:rgba(16,185,129,0.02)">
+<div class="container">
+<h2 class="section-title">✅ What Genuity Fixed Automatically</h2>
+<p class="section-subtitle">Errors that would have taken 45-90 minutes to catch manually</p>
+<div class="card-grid">
+<div class="card"><span class="tag tag-pass">OCR RECOVERY</span><h3>Part Number O/0 Confusion</h3><p><code>PN-3O4L-PLT-O750</code> → <code>PN-304L-PLT-0750</code><br><br>OCR misread zeros as letter O. Genuity checked the allowed parts registry and safely recovered the correct value.</p></div>
+<div class="card"><span class="tag tag-pass">CROSS-DOC JOIN</span><h3>Invoice Missing Part Number</h3><p>Invoice said "see attached PO" for part number. Genuity matched PO number + Supplier name across documents and borrowed the part number from the PO.</p></div>
+<div class="card"><span class="tag tag-pass">UNIT RECOVERY</span><h3>Tensile Strength Unit Error</h3><p>94,720 "MPa" is physically impossible for steel. Genuity detected it was PSI, converted to <strong>653.07 MPa</strong>, verified it's within spec (485-690 MPa). ✅</p></div>
+<div class="card"><span class="tag tag-pass">MATH DERIVATION</span><h3>PO Total Calculated</h3><p>Total was blank on the PO. Genuity calculated:<br><strong>12 pcs × $4,850 = $58,200.00</strong><br>Evidence from both quantity and unit price fields.</p></div>
+<div class="card"><span class="tag tag-pass">REVISION CONTROL</span><h3>Old Spec Superseded</h3><p>Spec Rev 1 was in the packet. Genuity automatically detected Rev 2 exists and marked Rev 1 as <strong>SUPERSEDED</strong>. Only Rev 2 was used for validation.</p></div>
+<div class="card"><span class="tag tag-pass">DUPLICATE DETECTION</span><h3>Duplicate Certificate Caught</h3><p>Certificate was scanned twice (receiving dock re-scan). SHA-256 content hash matched → marked as <strong>DUPLICATE</strong>. No double-counting.</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 class="section-title">🔴 What Genuity Blocked for Human Review</h2>
+<p class="section-subtitle">Genuity never guesses — if it can't prove it, it stops</p>
+<div class="card-grid">
+<div class="card"><span class="tag tag-fail">CRITICAL — 4hr SLA</span><h3>Quantity Conflict: PO 12 vs Invoice 11</h3><p>Purchase Order says <strong>12 pcs</strong>. Invoice says <strong>11 pcs</strong>. Genuity records the PO has higher authority but <strong>refuses to pick one</strong>. Assigned to: Procurement Operations.</p></div>
+<div class="card"><span class="tag tag-review">REVIEW — 24hr SLA</span><h3>Boron Value — Ladle vs Certificate</h3><p>Certificate is blank for Boron. Ladle analysis (same heat AN4T) says 0.0002%. Genuity proposes the value but <strong>does not auto-accept</strong> because domain policy doesn't permit substitution.</p></div>
+<div class="card"><span class="tag tag-fail">CRITICAL — 4hr SLA</span><h3>Tensile Strength Missing on Certificate</h3><p>The original MTR certificate has a stamp obscuring the tensile value. Even though mechanical properties show 653 MPa, the <strong>certificate itself</strong> has no readable value. Blocked.</p></div>
+<div class="card"><span class="tag tag-review">REVIEW — 24hr SLA</span><h3>Inspector Signoff Not Found</h3><p>Final inspection report says "[not signed — pending final QA approval]". Genuity flags this as <strong>UNRESOLVED</strong> and blocks the operational release until signed.</p></div>
+</div>
+</div>
+</section>
+
+<section style="background:rgba(16,185,129,0.02)">
+<div class="container">
+<div class="evidence-chain">
+<h3>🔗 Complete Evidence Chain (Built in &lt; 1 second)</h3>
+<div class="chain">
+<span class="chain-node">PO: LTTS-PO-2024-0847</span>
+<span class="chain-arrow">→</span>
+<span class="chain-node">PART: PN-304L-PLT-0750</span>
+<span class="chain-arrow">→</span>
+<span class="chain-node">BOM: BOM-HDS-304L-R2</span>
+<span class="chain-arrow">→</span>
+<span class="chain-node">SPEC: SA240-304L (Rev 2)</span>
+<span class="chain-arrow">→</span>
+<span class="chain-node">CERT: NAS-893611</span>
+<span class="chain-arrow">→</span>
+<span class="chain-node">HEAT: AN4T</span>
+<span class="chain-arrow">→</span>
+<span class="chain-node" style="border-color:rgba(16,185,129,0.5);color:#34d399">CHEM ✅ MECH ✅</span>
+</div>
+</div>
+
+<h2 class="section-title">🧪 Chemistry Validation</h2>
+<p class="section-subtitle">Real NAS Heat AN4T values checked against ASME SA-240 limits</p>
+<table>
+<thead><tr><th>Element</th><th>Actual Value</th><th>Spec Min</th><th>Spec Max</th><th>Result</th></tr></thead>
+<tbody>
+<tr class="highlight-row"><td><strong>Chromium (Cr)</strong></td><td>18.211%</td><td>18.00%</td><td>20.00%</td><td style="color:#34d399;font-weight:700">✅ PASS</td></tr>
+<tr class="highlight-row"><td><strong>Nickel (Ni)</strong></td><td>8.078%</td><td>8.00%</td><td>—</td><td style="color:#34d399;font-weight:700">✅ PASS</td></tr>
+<tr class="highlight-row"><td><strong>Molybdenum (Mo)</strong></td><td>0.277%</td><td>0.00%</td><td>0.75%</td><td style="color:#34d399;font-weight:700">✅ PASS</td></tr>
+<tr><td>Ni + Co (derived)</td><td>8.122%</td><td>—</td><td>—</td><td style="color:#34d399">✅ PASS</td></tr>
+<tr><td>Nb + Ta (derived)</td><td>0.007%</td><td>0.00%</td><td>0.10%</td><td style="color:#34d399">✅ PASS</td></tr>
+<tr class="highlight-row"><td><strong>Tensile Strength</strong></td><td><strong>653.07 MPa</strong><br><small style="color:#64748b">(recovered from 94,720 PSI)</small></td><td>485 MPa</td><td>690 MPa</td><td style="color:#34d399;font-weight:700">✅ PASS</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 class="section-title">💰 Cost Comparison</h2>
+<p class="section-subtitle">5 processing scenarios compared on this 12-page packet</p>
+<div style="max-width:800px;margin:0 auto">
+<div class="cost-bar"><span class="cost-bar-label">A: OCR Only (Manual)</span><div class="cost-bar-track"><div class="cost-bar-fill a">$34.89</div></div></div>
+<div class="cost-bar"><span class="cost-bar-label">B: OCR + Rules</span><div class="cost-bar-track"><div class="cost-bar-fill b">$20.27</div></div></div>
+<div class="cost-bar"><span class="cost-bar-label">D: Full-Page VLM</span><div class="cost-bar-track"><div class="cost-bar-fill d">$13.55</div></div></div>
+<div class="cost-bar"><span class="cost-bar-label">C: OCR + Reconciliation</span><div class="cost-bar-track"><div class="cost-bar-fill c">$10.14</div></div></div>
+<div class="cost-bar"><span class="cost-bar-label">⭐ E: Genuity</span><div class="cost-bar-track"><div class="cost-bar-fill e">$6.77</div></div></div>
+</div>
+<div class="stat-grid" style="margin-top:48px">
+<div class="stat-card"><div class="stat-value green">49.5%</div><div class="stat-label">Cheaper than Full-Page VLM</div></div>
+<div class="stat-card"><div class="stat-value green">80.6%</div><div class="stat-label">Cheaper than Manual OCR Review</div></div>
+<div class="stat-card"><div class="stat-value blue">$2.34M</div><div class="stat-label">Annual Savings at 1M Pages</div></div>
+<div class="stat-card"><div class="stat-value purple">42,668</div><div class="stat-label">Pages to Break Even ($100K)</div></div>
+</div>
+</div>
+</section>
+
+<section style="background:rgba(59,130,246,0.02)">
+<div class="container">
+<h2 class="section-title">📊 Scaling Economics</h2>
+<p class="section-subtitle">Annual savings vs manual OCR review process</p>
+<table>
+<thead><tr><th>Annual Volume</th><th>Manual Cost</th><th>Genuity Cost</th><th>Annual Savings</th></tr></thead>
+<tbody>
+<tr><td>100,000 pages</td><td>$290,775</td><td>$56,402</td><td style="color:#34d399;font-weight:700">$234,373</td></tr>
+<tr class="highlight-row"><td><strong>1,000,000 pages</strong></td><td>$2,907,750</td><td>$564,020</td><td style="color:#34d399;font-weight:700"><strong>$2,343,730</strong></td></tr>
+<tr><td>10,000,000 pages</td><td>$29,077,500</td><td>$5,640,200</td><td style="color:#34d399;font-weight:700">$23,437,300</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="cta">
+<h2>Recommended Next Step</h2>
+<p>A 4-week paid blind pilot on 10,000 real LTTS MTR packets.<br>Independently scored by LTTS QA. Measuring: precision, time savings, and cost per verified field.</p>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin-top:24px">
+<div class="stat-card" style="min-width:180px"><div class="stat-value green" style="font-size:1.5rem">≥99.5%</div><div class="stat-label">Critical Field Precision</div></div>
+<div class="stat-card" style="min-width:180px"><div class="stat-value blue" style="font-size:1.5rem">≥30%</div><div class="stat-label">Exception Time Reduction</div></div>
+<div class="stat-card" style="min-width:180px"><div class="stat-value purple" style="font-size:1.5rem">≥30%</div><div class="stat-label">Cost Per Field Reduction</div></div>
+<div class="stat-card" style="min-width:180px"><div class="stat-value green" style="font-size:1.5rem">Zero</div><div class="stat-label">Silent Conflicts</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="footer">
+Genuity IO — Evidence-first engineering record reconciliation. Chemistry data sourced from NAS MTR Certificate #893611, Heat AN4T.<br>
+All cost figures are planning estimates based on explicit assumptions. Not a customer quote.
+</div>
+
+</body>
+</html>

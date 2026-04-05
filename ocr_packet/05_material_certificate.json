@@ -1,0 +1,20 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "MATERIAL TEST CERTIFICATE\nEN 10204 Type 3.1\nNORTH AMERICAN STAINLESS - Acerinox Group\n6870 Highway 42 East, Ghent, KY 41045-9615\nCERTIFICATE NUMBER: NAS-893611\nHEAT NUMBER: AN4T\nMATERIAL: SA-240 TP304L\nSUPPLIER: North American Stainless\nPRODUCT: Stainless Steel Plate 304L\nTHICKNESS: 0.7500 inch\nWIDTH: 48.0000 inch\nSTEEL MAKING PROCESS: EAF, AOD\nCHEMISTRY (Heat Analysis):\nC: 0.021, Mn: 1.805, Si: 0.457, P: 0.034, S: 0.001\nCr: 18.211, Ni: 8.078, Mo: 0.277, N: 0.072\nCu: 0.382, Co: 0.044, Nb: 0.004, Ti: 0.003\nB: [blank]\nMATERIAL IS FREE OF MERCURY CONTAMINATION\nNACE MR0175/ISO 15156-3:2015 COMPLIANT\nTENSILE STRENGTH: [stamp obscured - illegible]",
+  "fields": [
+    {"name": "certificate_number", "value": "NAS-893611", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.55, 0.05, 0.92, 0.10]},
+    {"name": "heat_number", "value": "AN4T", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.12, 0.40, 0.17]},
+    {"name": "material_grade", "value": "SA-240 TP304L", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.19, 0.50, 0.24]},
+    {"name": "supplier", "value": "North American Stainless", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.05, 0.50, 0.10]},
+    {"name": "chemistry.C", "value": 0.021, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.45, 0.25, 0.50]},
+    {"name": "chemistry.Ni", "value": 8.078, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.51, 0.25, 0.56]},
+    {"name": "chemistry.Co", "value": 0.044, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.25, 0.51, 0.42, 0.56]},
+    {"name": "chemistry.Cr", "value": 18.211, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.42, 0.51, 0.60, 0.56]},
+    {"name": "chemistry.Mo", "value": 0.277, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.60, 0.51, 0.78, 0.56]},
+    {"name": "chemistry.Nb", "value": 0.004, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.78, 0.51, 0.92, 0.56]},
+    {"name": "chemistry.Ta", "value": 0.003, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.57, 0.25, 0.62]},
+    {"name": "chemistry.B", "value": null, "unit": "percent", "confidence": 0.0, "page": 1, "region": "chemistry_table", "bbox": [0.25, 0.57, 0.42, 0.62]},
+    {"name": "tensile_strength_mpa", "value": null, "unit": "MPa", "confidence": 0.0, "page": 1, "region": "mechanical_table_crop_x430_y690_w260_h90", "bbox": [0.52, 0.65, 0.84, 0.76]}
+  ]
+}

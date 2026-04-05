@@ -1,0 +1,14 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "SUPPLIER INVOICE\nNORTH AMERICAN STAINLESS - Acerinox Group\n6870 Highway 42 East, Ghent, KY 41045\nINVOICE NUMBER: NAS-INV-2024-39221\nINVOICE DATE: 2024-03-08\nPO NUMBER: LTTS-PO-2024-0847\nSUPPLIER: North American Stainless\nCUSTOMER: L&T Technology Services\nDESCRIPTION: SA-240 TP304L Stainless Steel Plate 0.750in\nPART NUMBER: [see attached PO]\nQUANTITY: 11 PCS\nUNIT PRICE: USD 4850.00\nTOTAL: USD 53350.00\nSHIPPED VIA: Ocean Freight\nPAYMENT TERMS: Net 45",
+  "fields": [
+    {"name": "invoice_number", "value": "NAS-INV-2024-39221", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.12, 0.60, 0.17]},
+    {"name": "po_number", "value": "LTTS-PO-2024-0847", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.19, 0.55, 0.24]},
+    {"name": "supplier", "value": "North American Stainless", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.05, 0.65, 0.10]},
+    {"name": "part_number", "value": null, "unit": null, "confidence": 0.0, "page": 1, "region": "line_items", "bbox": [0.08, 0.40, 0.55, 0.45]},
+    {"name": "quantity", "value": 11, "unit": "pcs", "confidence": 0.99, "page": 1, "region": "line_items", "bbox": [0.60, 0.40, 0.75, 0.45]},
+    {"name": "unit_price", "value": 4850.00, "unit": "USD", "confidence": 0.99, "page": 1, "region": "line_items", "bbox": [0.75, 0.40, 0.92, 0.45]},
+    {"name": "total_amount", "value": 53350.00, "unit": "USD", "confidence": 0.99, "page": 1, "region": "totals", "bbox": [0.75, 0.55, 0.92, 0.60]}
+  ]
+}

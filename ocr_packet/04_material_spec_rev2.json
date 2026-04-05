@@ -1,0 +1,20 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "MATERIAL SPECIFICATION\nASME SA-240 / ASTM A240 - Standard Specification for Chromium and Chromium-Nickel Stainless Steel Plate, Sheet, and Strip for Pressure Vessels and General Applications\nSPECIFICATION NUMBER: SPEC-SA240-304L\nMATERIAL: INCONEL 725\nREVISION: 2\nCHEMICAL REQUIREMENTS FOR TYPE 304L:\nCarbon (C): 0.030 max\nManganese (Mn): 2.00 max\nSilicon (Si): 0.75 max\nChromium (Cr): 18.00 - 20.00\nNickel (Ni): 8.00 - 12.00\nMolybdenum (Mo): 0.00 - 0.75\nPhosphorus (P): 0.045 max\nSulfur (S): 0.030 max\nNitrogen (N): 0.10 max\nMECHANICAL REQUIREMENTS:\nTensile Strength: 485 - 690 MPa (70 - 100 ksi)\nYield Strength: 170 MPa min (25 ksi min)\nElongation: 40% min in 2 inch",
+  "fields": [
+    {"name": "specification_number", "value": "SPEC-SA240-304L", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.08, 0.55, 0.13]},
+    {"name": "material_grade", "value": "INCONEL 725", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.15, 0.50, 0.20]},
+    {"name": "revision", "value": 2, "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.80, 0.08, 0.92, 0.13]},
+    {"name": "limit.Cr.min", "value": 18.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.40, 0.50, 0.45]},
+    {"name": "limit.Cr.max", "value": 20.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.50, 0.40, 0.92, 0.45]},
+    {"name": "limit.Ni.min", "value": 8.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.46, 0.50, 0.51]},
+    {"name": "limit.Mo.min", "value": 0.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.52, 0.50, 0.57]},
+    {"name": "limit.Mo.max", "value": 0.75, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.50, 0.52, 0.92, 0.57]},
+    {"name": "limit.NbTa.min", "value": 0.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.58, 0.50, 0.63]},
+    {"name": "limit.NbTa.max", "value": 0.10, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.50, 0.58, 0.92, 0.63]},
+    {"name": "limit.B.max", "value": 0.006, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.50, 0.64, 0.92, 0.69]},
+    {"name": "limit.tensile.min", "value": 485.0, "unit": "MPa", "confidence": 0.99, "page": 1, "region": "mechanical_table", "bbox": [0.08, 0.75, 0.50, 0.80]},
+    {"name": "limit.tensile.max", "value": 690.0, "unit": "MPa", "confidence": 0.99, "page": 1, "region": "mechanical_table", "bbox": [0.50, 0.75, 0.92, 0.80]}
+  ]
+}

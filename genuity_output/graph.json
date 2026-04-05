@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "PO:LTTS-PO-2024-0847",
+      "type": "purchase_order",
+      "label": "LTTS-PO-2024-0847",
+      "evidence_ids": [
+        "EV-01_PURCHASE_ORDER-001"
+      ]
+    },
+    {
+      "id": "PART:PN-304L-PLT-0750",
+      "type": "part",
+      "label": "PN-304L-PLT-0750",
+      "evidence_ids": [
+        "EV-01_PURCHASE_ORDER-003"
+      ]
+    },
+    {
+      "id": "BOM:BOM-HDS-304L-R2",
+      "type": "bill_of_materials",
+      "label": "BOM-HDS-304L-R2",
+      "evidence_ids": [
+        "EV-03_BOM-001"
+      ]
+    },
+    {
+      "id": "CERT:NAS-893611",
+      "type": "material_certificate",
+      "label": "NAS-893611",
+      "evidence_ids": [
+        "EV-05_MATERIAL_CERTIFICATE-001"
+      ]
+    },
+    {
+      "id": "COC:NAS-COC-2024-1847",
+      "type": "certificate_of_conformance",
+      "label": "NAS-COC-2024-1847",
+      "evidence_ids": [
+        "EV-06_CERTIFICATE_OF_CONFORMANCE-001"
+      ]
+    },
+    {
+      "id": "HEAT:AN4T",
+      "type": "heat_lot",
+      "label": "AN4T",
+      "evidence_ids": [
+        "EV-05_MATERIAL_CERTIFICATE-002"
+      ]
+    },
+    {
+      "id": "SPEC:SPEC-SA240-304L:R2",
+      "type": "specification",
+      "label": "SPEC-SA240-304L revision 2",
+      "evidence_ids": [
+        "EV-04_MATERIAL_SPEC_REV2-001"
+      ]
+    },
+    {
+      "id": "TEST:CHEM-AN4T",
+      "type": "chemistry_results",
+      "label": "Chemistry AN4T"
+    },
+    {
+      "id": "TEST:MECH-AN4T",
+      "type": "mechanical_results",
+      "label": "Mechanical AN4T"
+    },
+    {
+      "id": "DOC:01_PURCHASE_ORDER",
+      "type": "document",
+      "label": "01_PURCHASE_ORDER",
+      "document_type": "purchase_order"
+    },
+    {
+      "id": "DOC:02_SUPPLIER_INVOICE",
+      "type": "document",
+      "label": "02_SUPPLIER_INVOICE",
+      "document_type": "invoice"
+    },
+    {
+      "id": "DOC:03_BOM",
+      "type": "document",
+      "label": "03_BOM",
+      "document_type": "bill_of_materials"
+    },
+    {
+      "id": "DOC:04_MATERIAL_SPEC_REV2",
+      "type": "document",
+      "label": "04_MATERIAL_SPEC_REV2",
+      "document_type": "specification"
+    },
+    {
+      "id": "DOC:05_MATERIAL_CERTIFICATE",
+      "type": "document",
+      "label": "05_MATERIAL_CERTIFICATE",
+      "document_type": "material_certificate"
+    },
+    {
+      "id": "DOC:06_CERTIFICATE_OF_CONFORMANCE",
+      "type": "document",
+      "label": "06_CERTIFICATE_OF_CONFORMANCE",
+      "document_type": "certificate_of_conformance"
+    },
+    {
+      "id": "DOC:07_LADLE_CHEMISTRY",
+      "type": "document",
+      "label": "07_LADLE_CHEMISTRY",
+      "document_type": "chemistry_table"
+    },
+    {
+      "id": "DOC:08_MECHANICAL_PROPERTIES",
+      "type": "document",
+      "label": "08_MECHANICAL_PROPERTIES",
+      "document_type": "mechanical_properties"
+    },
+    {
+      "id": "DOC:09_HARDNESS_TABLE",
+      "type": "document",
+      "label": "09_HARDNESS_TABLE",
+      "document_type": "hardness_table"
+    },
+    {
+      "id": "DOC:10_CERTIFICATE_DUPLICATE_SCAN",
+      "type": "document",
+      "label": "10_CERTIFICATE_DUPLICATE_SCAN",
+      "document_type": "material_certificate"
+    },
+    {
+      "id": "DOC:11_MATERIAL_SPEC_OLD_REV1",
+      "type": "document",
+      "label": "11_MATERIAL_SPEC_OLD_REV1",
+      "document_type": "specification"
+    },
+    {
+      "id": "DOC:12_FINAL_INSPECTION",
+      "type": "document",
+      "label": "12_FINAL_INSPECTION",
+      "document_type": "inspection_report"
+    }
+  ],
+  "edges": [
+    {
+      "source": "PO:LTTS-PO-2024-0847",
+      "target": "PART:PN-304L-PLT-0750",
+      "type": "orders",
+      "status": "LINKED",
+      "join_keys": [
+        "po_number",
+        "part_number"
+      ],
+      "corroboration": [],
+      "evidence": [
+        "EV-01_PURCHASE_ORDER-001",
+        "EV-01_PURCHASE_ORDER-003"
+      ]
+    },
+    {
+      "source": "PART:PN-304L-PLT-0750",
+      "target": "BOM:BOM-HDS-304L-R2",
+      "type": "defined_by",
+      "status": "LINKED",
+      "join_keys": [
+        "part_number"
+      ],
+      "corroboration": [
+        "po_number",
+        "material_grade"
+      ],
+      "evidence": [
+        "EV-03_BOM-002"
+      ]
+    },
+    {
+      "source": "BOM:BOM-HDS-304L-R2",
+      "target": "SPEC:SPEC-SA240-304L:R2",
+      "type": "requires",
+      "status": "LINKED",
+      "join_keys": [
+        "specification_number"
+      ],
+      "corroboration": [],
+      "evidence": [
+        "EV-03_BOM-004"
+      ]
+    },
+    {
+      "source": "SPEC:SPEC-SA240-304L:R2",
+      "target": "CERT:NAS-893611",
+      "type": "validated_against",
+      "status": "LINKED",
+      "join_keys": [],
+      "corroboration": [],
+      "evidence": [
+        "EV-05_MATERIAL_CERTIFICATE-008",
+        "EV-04_MATERIAL_SPEC_REV2-004",
+        "EV-04_MATERIAL_SPEC_REV2-005",
+        "EV-05_MATERIAL_CERTIFICATE-006",
+        "EV-04_MATERIAL_SPEC_REV2-006",
+        "EV-05_MATERIAL_CERTIFICATE-009",
+        "EV-04_MATERIAL_SPEC_REV2-007",
+        "EV-04_MATERIAL_SPEC_REV2-008",
+        "EV-05_MATERIAL_CERTIFICATE-007",
+        "EV-05_MATERIAL_CERTIFICATE-010",
+        "EV-05_MATERIAL_CERTIFICATE-011",
+        "EV-08_MECHANICAL_PROPERTIES-003",
+        "EV-04_MATERIAL_SPEC_REV2-012",
+        "EV-04_MATERIAL_SPEC_REV2-013"
+      ]
+    },
+    {
+      "source": "PO:LTTS-PO-2024-0847",
+      "target": "COC:NAS-COC-2024-1847",
+      "type": "covered_by",
+      "status": "LINKED",
+      "join_keys": [
+        "po_number"
+      ],
+      "corroboration": [
+        "supplier"
+      ],
+      "evidence": [
+        "EV-01_PURCHASE_ORDER-001",
+        "EV-06_CERTIFICATE_OF_CONFORMANCE-002"
+      ]
+    },
+    {
+      "source": "COC:NAS-COC-2024-1847",
+      "target": "CERT:NAS-893611",
+      "type": "references_certificate",
+      "status": "LINKED",
+      "join_keys": [
+        "certificate_number"
+      ],
+      "corroboration": [
+        "heat_number",
+        "supplier"
+      ],
+      "evidence": [
+        "EV-06_CERTIFICATE_OF_CONFORMANCE-003",
+        "EV-05_MATERIAL_CERTIFICATE-001"
+      ]
+    },
+    {
+      "source": "CERT:NAS-893611",
+      "target": "HEAT:AN4T",
+      "type": "certifies",
+      "status": "LINKED",
+      "join_keys": [
+        "heat_number"
+      ],
+      "corroboration": [],
+      "evidence": [
+        "EV-05_MATERIAL_CERTIFICATE-002"
+      ]
+    },
+    {
+      "source": "HEAT:AN4T",
+      "target": "TEST:CHEM-AN4T",
+      "type": "has_test_results",
+      "status": "LINKED",
+      "join_keys": [],
+      "corroboration": [],
+      "evidence": [
+        "EV-05_MATERIAL_CERTIFICATE-008"
+      ]
+    },
+    {
+      "source": "HEAT:AN4T",
+      "target": "TEST:MECH-AN4T",
+      "type": "has_test_results",
+      "status": "LINKED",
+      "join_keys": [],
+      "corroboration": [],
+      "evidence": [
+        "EV-08_MECHANICAL_PROPERTIES-003"
+      ]
+    },
+    {
+      "source": "DOC:11_MATERIAL_SPEC_OLD_REV1",
+      "target": "DOC:04_MATERIAL_SPEC_REV2",
+      "type": "superseded_by",
+      "evidence": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "MATERIAL SPECIFICATION\nASME SA-240 / ASTM A240 - Superseded Revision\nSPECIFICATION NUMBER: SPEC-SA240-304L\nMATERIAL: INCONEL 725\nREVISION: 1\nCHEMICAL REQUIREMENTS FOR TYPE 304L (OLD REVISION):\nChromium (Cr): 18.00 - 20.00\nNickel (Ni): 8.00 - 10.50\nNOTE: This revision has been superseded by Revision 2",
+  "fields": [
+    {"name": "specification_number", "value": "SPEC-SA240-304L", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.08, 0.55, 0.13]},
+    {"name": "material_grade", "value": "INCONEL 725", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.15, 0.50, 0.20]},
+    {"name": "revision", "value": 1, "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.80, 0.08, 0.92, 0.13]},
+    {"name": "limit.Cr.min", "value": 18.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.40, 0.50, 0.45]},
+    {"name": "limit.Cr.max", "value": 20.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.50, 0.40, 0.92, 0.45]},
+    {"name": "limit.Ni.min", "value": 8.00, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.46, 0.50, 0.51]}
+  ]
+}

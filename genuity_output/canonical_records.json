@@ -1,0 +1,84 @@
+{
+  "record_id": "CONNECTED-LTTS-PO-2024-0847",
+  "po_number": "LTTS-PO-2024-0847",
+  "part_number": "PN-304L-PLT-0750",
+  "supplier": "North American Stainless",
+  "bom_number": "BOM-HDS-304L-R2",
+  "specification": {
+    "number": "SPEC-SA240-304L",
+    "revision": 2
+  },
+  "material_certificate": "NAS-893611",
+  "certificate_of_conformance": "NAS-COC-2024-1847",
+  "heat_number": "AN4T",
+  "material_grade": "INCONEL 725",
+  "quantity": {
+    "value": null,
+    "status": "CONFLICT",
+    "candidates": [
+      {
+        "document_id": "01_PURCHASE_ORDER",
+        "document_type": "purchase_order",
+        "value": 12,
+        "authority_rank": 1
+      },
+      {
+        "document_id": "02_SUPPLIER_INVOICE",
+        "document_type": "invoice",
+        "value": 11,
+        "authority_rank": 2
+      }
+    ],
+    "evidence_ids": [
+      "EV-01_PURCHASE_ORDER-005",
+      "EV-02_SUPPLIER_INVOICE-005"
+    ]
+  },
+  "identity_conflicts": [],
+  "chemistry_satisfies_specification": true,
+  "chemistry_validation_status": "PASS",
+  "boron_certificate_value": {
+    "value": 0.0002,
+    "status": "PROPOSED_NOT_ACCEPTED",
+    "safe_for_operational_use": false
+  },
+  "synthetic_values": [
+    {
+      "field": "hardness_row_9_col_2_hrc",
+      "value": 14.05,
+      "purpose": "analytics_only"
+    }
+  ],
+  "unresolved_fields": [
+    "tensile_strength_mpa",
+    "tensile_strength_mpa",
+    "inspector_signoff"
+  ],
+  "path": [
+    "PO:LTTS-PO-2024-0847",
+    "PART:PN-304L-PLT-0750",
+    "BOM:BOM-HDS-304L-R2",
+    "SPEC:SPEC-SA240-304L:R2",
+    "CERT:NAS-893611",
+    "HEAT:AN4T",
+    "TEST:CHEM-AN4T",
+    "TEST:MECH-AN4T"
+  ],
+  "material_certificate_link_explanation": {
+    "answer": "NAS-893611",
+    "path": [
+      "PO:LTTS-PO-2024-0847",
+      "COC:NAS-COC-2024-1847",
+      "CERT:NAS-893611"
+    ],
+    "join_keys": [
+      "po_number",
+      "certificate_number"
+    ],
+    "corroboration": [
+      "supplier",
+      "heat_number"
+    ],
+    "status": "EVIDENCE_LINKED"
+  }
+}

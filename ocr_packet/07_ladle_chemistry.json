@@ -1,0 +1,17 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "CHEMISTRY TABLE\nLADLE ANALYSIS - Heat AN4T\nHEAT NUMBER: AN4T\nMATERIAL: SA-240 TP304L\nSUPPLIER: North American Stainless\nElement | Heat Analysis\nC:  0.021\nMn: 1.805\nSi: 0.457\nP:  0.034\nS:  0.001\nCr: 18.211\nNi: 8.078\nMo: 0.277\nN:  0.072\nCu: 0.382\nCo: 0.044\nNb: 0.004\nTi: 0.003\nB:  0.0002\nFe: Balance",
+  "fields": [
+    {"name": "heat_number", "value": "AN4T", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.08, 0.40, 0.13]},
+    {"name": "material_grade", "value": "SA-240 TP304L", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.15, 0.50, 0.20]},
+    {"name": "chemistry.C", "value": 0.021, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.30, 0.50, 0.35]},
+    {"name": "chemistry.Cr", "value": 18.211, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.48, 0.50, 0.53]},
+    {"name": "chemistry.Ni", "value": 8.078, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.54, 0.50, 0.59]},
+    {"name": "chemistry.Mo", "value": 0.277, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.60, 0.50, 0.65]},
+    {"name": "chemistry.Nb", "value": 0.004, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.72, 0.50, 0.77]},
+    {"name": "chemistry.Ta", "value": 0.003, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.78, 0.50, 0.83]},
+    {"name": "chemistry.B", "value": 0.0002, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.08, 0.84, 0.50, 0.89]},
+    {"name": "chemistry.Co", "value": 0.044, "unit": "percent", "confidence": 0.99, "page": 1, "region": "chemistry_table", "bbox": [0.50, 0.72, 0.92, 0.77]}
+  ]
+}

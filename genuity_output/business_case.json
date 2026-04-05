@@ -1,0 +1,165 @@
+{
+  "model_type": "bottom_up_scenario_not_market_forecast",
+  "base_batch_pages": 12,
+  "unit_economics": {
+    "genuity_cost_per_page_usd": 0.56402,
+    "full_page_vlm_cost_per_page_usd": 1.129127,
+    "ocr_only_with_review_cost_per_page_usd": 2.90775,
+    "savings_per_page_vs_full_page_vlm_usd": 0.565107,
+    "savings_per_page_vs_ocr_only_with_review_usd": 2.34373
+  },
+  "scale_scenarios": [
+    {
+      "annual_pages": 100000,
+      "genuity_estimated_cost_usd": 56402.0,
+      "full_page_vlm_estimated_cost_usd": 112912.73,
+      "ocr_only_with_review_estimated_cost_usd": 290775.0,
+      "savings_vs_full_page_vlm_usd": 56510.73,
+      "savings_vs_ocr_only_with_review_usd": 234373.0,
+      "illustrative_revenue_at_15pct_of_full_vlm_savings_usd": 8476.61
+    },
+    {
+      "annual_pages": 1000000,
+      "genuity_estimated_cost_usd": 564020.0,
+      "full_page_vlm_estimated_cost_usd": 1129127.25,
+      "ocr_only_with_review_estimated_cost_usd": 2907750.0,
+      "savings_vs_full_page_vlm_usd": 565107.25,
+      "savings_vs_ocr_only_with_review_usd": 2343730.0,
+      "illustrative_revenue_at_15pct_of_full_vlm_savings_usd": 84766.09
+    },
+    {
+      "annual_pages": 10000000,
+      "genuity_estimated_cost_usd": 5640200.0,
+      "full_page_vlm_estimated_cost_usd": 11291272.5,
+      "ocr_only_with_review_estimated_cost_usd": 29077500.0,
+      "savings_vs_full_page_vlm_usd": 5651072.5,
+      "savings_vs_ocr_only_with_review_usd": 23437300.0,
+      "illustrative_revenue_at_15pct_of_full_vlm_savings_usd": 847660.88
+    },
+    {
+      "annual_pages": 100000000,
+      "genuity_estimated_cost_usd": 56402000.0,
+      "full_page_vlm_estimated_cost_usd": 112912725.0,
+      "ocr_only_with_review_estimated_cost_usd": 290775000.0,
+      "savings_vs_full_page_vlm_usd": 56510725.0,
+      "savings_vs_ocr_only_with_review_usd": 234373000.0,
+      "illustrative_revenue_at_15pct_of_full_vlm_savings_usd": 8476608.75
+    },
+    {
+      "annual_pages": 1000000000,
+      "genuity_estimated_cost_usd": 564020000.0,
+      "full_page_vlm_estimated_cost_usd": 1129127250.0,
+      "ocr_only_with_review_estimated_cost_usd": 2907750000.0,
+      "savings_vs_full_page_vlm_usd": 565107250.0,
+      "savings_vs_ocr_only_with_review_usd": 2343730000.0,
+      "illustrative_revenue_at_15pct_of_full_vlm_savings_usd": 84766087.5
+    }
+  ],
+  "implementation_break_even": [
+    {
+      "implementation_cost_usd": 50000,
+      "pages_to_break_even_vs_full_page_vlm": 88479,
+      "pages_to_break_even_vs_ocr_only_with_review": 21334
+    },
+    {
+      "implementation_cost_usd": 100000,
+      "pages_to_break_even_vs_full_page_vlm": 176958,
+      "pages_to_break_even_vs_ocr_only_with_review": 42668
+    },
+    {
+      "implementation_cost_usd": 250000,
+      "pages_to_break_even_vs_full_page_vlm": 442394,
+      "pages_to_break_even_vs_ocr_only_with_review": 106668
+    },
+    {
+      "implementation_cost_usd": 1000000,
+      "pages_to_break_even_vs_full_page_vlm": 1769576,
+      "pages_to_break_even_vs_ocr_only_with_review": 426671
+    }
+  ],
+  "human_cost_sensitivity": [
+    {
+      "human_hourly_cost_usd": 10.0,
+      "genuity_cost_per_page_usd": 0.12652,
+      "full_page_vlm_cost_per_page_usd": 0.254127,
+      "savings_percent": 50.21
+    },
+    {
+      "human_hourly_cost_usd": 25.0,
+      "genuity_cost_per_page_usd": 0.31402,
+      "full_page_vlm_cost_per_page_usd": 0.629127,
+      "savings_percent": 50.09
+    },
+    {
+      "human_hourly_cost_usd": 45.0,
+      "genuity_cost_per_page_usd": 0.56402,
+      "full_page_vlm_cost_per_page_usd": 1.129127,
+      "savings_percent": 50.05
+    },
+    {
+      "human_hourly_cost_usd": 75.0,
+      "genuity_cost_per_page_usd": 0.93902,
+      "full_page_vlm_cost_per_page_usd": 1.879127,
+      "savings_percent": 50.03
+    }
+  ],
+  "routing_sensitivity": [
+    {
+      "routed_regions_per_page": 0.01,
+      "selective_machine_cost_per_page_usd": 0.00152803,
+      "full_page_vlm_machine_cost_per_page_usd": 0.00412725,
+      "machine_cost_reduction_percent": 62.98
+    },
+    {
+      "routed_regions_per_page": 0.05,
+      "selective_machine_cost_per_page_usd": 0.00156013,
+      "full_page_vlm_machine_cost_per_page_usd": 0.00412725,
+      "machine_cost_reduction_percent": 62.2
+    },
+    {
+      "routed_regions_per_page": 0.1,
+      "selective_machine_cost_per_page_usd": 0.00160025,
+      "full_page_vlm_machine_cost_per_page_usd": 0.00412725,
+      "machine_cost_reduction_percent": 61.23
+    },
+    {
+      "routed_regions_per_page": 0.25,
+      "selective_machine_cost_per_page_usd": 0.00172063,
+      "full_page_vlm_machine_cost_per_page_usd": 0.00412725,
+      "machine_cost_reduction_percent": 58.31
+    },
+    {
+      "routed_regions_per_page": 1.0,
+      "selective_machine_cost_per_page_usd": 0.0023225,
+      "full_page_vlm_machine_cost_per_page_usd": 0.00412725,
+      "machine_cost_reduction_percent": 43.73
+    }
+  ],
+  "billion_dollar_threshold": {
+    "pages_for_1b_usd_savings_vs_full_page_vlm": 1769575599,
+    "pages_for_1b_usd_savings_vs_ocr_only_with_review": 426670308,
+    "interpretation": "These are portfolio-throughput thresholds under the stated demo assumptions, not a market-size forecast."
+  },
+  "external_market_price_anchors": [
+    {
+      "provider": "AWS Textract",
+      "service": "Analyze Document Forms + Tables",
+      "usd_per_page": 0.065,
+      "scope": "Structure extraction, first 1 million pages",
+      "source": "https://aws.amazon.com/textract/pricing/"
+    },
+    {
+      "provider": "Google Document AI",
+      "service": "Form Parser",
+      "usd_per_page": 0.03,
+      "scope": "Structure and entity extraction",
+      "source": "https://cloud.google.com/document-ai/pricing"
+    }
+  ],
+  "commercial_principle": "Price against measured avoided exception-handling cost, with a pilot holdout and shared audit metrics; do not price against unverified top-down market claims.",
+  "limitations": [
+    "Linear scale scenarios do not include volume discounts, infrastructure step costs, or integration cost.",
+    "Review-case rates come from the controlled packet and must be replaced with a client pilot distribution.",
+    "Error-avoidance, cycle-time, working-capital, and compliance value are intentionally excluded until measured."
+  ]
+}

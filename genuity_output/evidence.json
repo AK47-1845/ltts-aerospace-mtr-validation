@@ -1,0 +1,1322 @@
+[
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-001",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "header",
+    "quote": "\"LTTS-PO-2024-0847\"",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.08,
+      0.05,
+      0.55,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-002",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "header",
+    "quote": "\"North American Stainless\"",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.08,
+      0.12,
+      0.6,
+      0.17
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-003",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "line_items",
+    "quote": "\"PN-3O4L-PLT-O750\"",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.08,
+      0.3,
+      0.55,
+      0.35
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-004",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "line_items",
+    "quote": "\"SA-240 TP304L\"",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.08,
+      0.36,
+      0.5,
+      0.41
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-005",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "line_items",
+    "quote": "12",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.6,
+      0.3,
+      0.75,
+      0.35
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-006",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "line_items",
+    "quote": "4850.0",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.75,
+      0.3,
+      0.92,
+      0.35
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-007",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "totals",
+    "quote": "[blank]",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.75,
+      0.45,
+      0.92,
+      0.5
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-01_PURCHASE_ORDER-008",
+    "document_id": "01_PURCHASE_ORDER",
+    "page": 1,
+    "region": "header",
+    "quote": "2",
+    "content_hash": "96cd613800812a6e2aa35baa3994442c9ab63bca5361f5be61f44fdc3a23051e",
+    "bbox": [
+      0.8,
+      0.05,
+      0.92,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-001",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"NAS-INV-2024-39221\"",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.08,
+      0.12,
+      0.6,
+      0.17
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-002",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"LTTS-PO-2024-0847\"",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.08,
+      0.19,
+      0.55,
+      0.24
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-003",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"North American Stainless\"",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.08,
+      0.05,
+      0.65,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-004",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "line_items",
+    "quote": "[blank]",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.08,
+      0.4,
+      0.55,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-005",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "line_items",
+    "quote": "11",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.6,
+      0.4,
+      0.75,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-006",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "line_items",
+    "quote": "4850.0",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.75,
+      0.4,
+      0.92,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-02_SUPPLIER_INVOICE-007",
+    "document_id": "02_SUPPLIER_INVOICE",
+    "page": 1,
+    "region": "totals",
+    "quote": "53350.0",
+    "content_hash": "3e6dd62411df36def42cfdc55a96bbc0a5e4968abeaac6ace29bea6c92ca4ba7",
+    "bbox": [
+      0.75,
+      0.55,
+      0.92,
+      0.6
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-03_BOM-001",
+    "document_id": "03_BOM",
+    "page": 1,
+    "region": "header",
+    "quote": "\"BOM-HDS-304L-R2\"",
+    "content_hash": "46451eec8f9f2e226494c188120427199f50fd64ae3885a5963912d43c380a60",
+    "bbox": [
+      0.08,
+      0.12,
+      0.55,
+      0.17
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-03_BOM-002",
+    "document_id": "03_BOM",
+    "page": 1,
+    "region": "line_items",
+    "quote": "\"PN-304L-PLT-0750\"",
+    "content_hash": "46451eec8f9f2e226494c188120427199f50fd64ae3885a5963912d43c380a60",
+    "bbox": [
+      0.08,
+      0.3,
+      0.55,
+      0.35
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-03_BOM-003",
+    "document_id": "03_BOM",
+    "page": 1,
+    "region": "line_items",
+    "quote": "\"SA-240 TP 304L\"",
+    "content_hash": "46451eec8f9f2e226494c188120427199f50fd64ae3885a5963912d43c380a60",
+    "bbox": [
+      0.08,
+      0.36,
+      0.5,
+      0.41
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-03_BOM-004",
+    "document_id": "03_BOM",
+    "page": 1,
+    "region": "line_items",
+    "quote": "\"SPEC-SA240-304L\"",
+    "content_hash": "46451eec8f9f2e226494c188120427199f50fd64ae3885a5963912d43c380a60",
+    "bbox": [
+      0.08,
+      0.42,
+      0.55,
+      0.47
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-03_BOM-005",
+    "document_id": "03_BOM",
+    "page": 1,
+    "region": "line_items",
+    "quote": "12",
+    "content_hash": "46451eec8f9f2e226494c188120427199f50fd64ae3885a5963912d43c380a60",
+    "bbox": [
+      0.6,
+      0.3,
+      0.75,
+      0.35
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-001",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "header",
+    "quote": "\"SPEC-SA240-304L\"",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.08,
+      0.55,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-002",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "header",
+    "quote": "\"INCONEL 725\"",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.15,
+      0.5,
+      0.2
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-003",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "header",
+    "quote": "2",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.8,
+      0.08,
+      0.92,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-004",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "18.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.4,
+      0.5,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-005",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "20.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.5,
+      0.4,
+      0.92,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-006",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "8.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.46,
+      0.5,
+      0.51
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-007",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.52,
+      0.5,
+      0.57
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-008",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.75",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.5,
+      0.52,
+      0.92,
+      0.57
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-009",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.58,
+      0.5,
+      0.63
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-010",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.1",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.5,
+      0.58,
+      0.92,
+      0.63
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-011",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.006",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.5,
+      0.64,
+      0.92,
+      0.69
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-012",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "mechanical_table",
+    "quote": "485.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.08,
+      0.75,
+      0.5,
+      0.8
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-04_MATERIAL_SPEC_REV2-013",
+    "document_id": "04_MATERIAL_SPEC_REV2",
+    "page": 1,
+    "region": "mechanical_table",
+    "quote": "690.0",
+    "content_hash": "91bb3d534a184a9ab0f5caed859a82641609558975485f60a43317ca2adfc8eb",
+    "bbox": [
+      0.5,
+      0.75,
+      0.92,
+      0.8
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-001",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"NAS-893611\"",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.55,
+      0.05,
+      0.92,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-002",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.08,
+      0.12,
+      0.4,
+      0.17
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-003",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"SA-240 TP304L\"",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.08,
+      0.19,
+      0.5,
+      0.24
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-004",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"North American Stainless\"",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.08,
+      0.05,
+      0.5,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-005",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.021",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.08,
+      0.45,
+      0.25,
+      0.5
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-006",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "8.078",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.08,
+      0.51,
+      0.25,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-007",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.044",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.25,
+      0.51,
+      0.42,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-008",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "18.211",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.42,
+      0.51,
+      0.6,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-009",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.277",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.6,
+      0.51,
+      0.78,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-010",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.004",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.78,
+      0.51,
+      0.92,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-011",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.003",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.08,
+      0.57,
+      0.25,
+      0.62
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-012",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "[blank]",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.25,
+      0.57,
+      0.42,
+      0.62
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-05_MATERIAL_CERTIFICATE-013",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "page": 1,
+    "region": "mechanical_table_crop_x430_y690_w260_h90",
+    "quote": "[blank]",
+    "content_hash": "b15d8866a4d9c94ec5c453f1aace23e5c28ff4d6830189adc0addd09b15bc28a",
+    "bbox": [
+      0.52,
+      0.65,
+      0.84,
+      0.76
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-06_CERTIFICATE_OF_CONFORMANCE-001",
+    "document_id": "06_CERTIFICATE_OF_CONFORMANCE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"NAS-COC-2024-1847\"",
+    "content_hash": "7868df22279d60f50a3c4db11ad2697a5df78cce702e7e9aa47fd3576c81860c",
+    "bbox": [
+      0.08,
+      0.12,
+      0.55,
+      0.17
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-06_CERTIFICATE_OF_CONFORMANCE-002",
+    "document_id": "06_CERTIFICATE_OF_CONFORMANCE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"LTTS-PO-2024-0847\"",
+    "content_hash": "7868df22279d60f50a3c4db11ad2697a5df78cce702e7e9aa47fd3576c81860c",
+    "bbox": [
+      0.08,
+      0.19,
+      0.55,
+      0.24
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-06_CERTIFICATE_OF_CONFORMANCE-003",
+    "document_id": "06_CERTIFICATE_OF_CONFORMANCE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"NAS-893611\"",
+    "content_hash": "7868df22279d60f50a3c4db11ad2697a5df78cce702e7e9aa47fd3576c81860c",
+    "bbox": [
+      0.08,
+      0.26,
+      0.55,
+      0.31
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-06_CERTIFICATE_OF_CONFORMANCE-004",
+    "document_id": "06_CERTIFICATE_OF_CONFORMANCE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "7868df22279d60f50a3c4db11ad2697a5df78cce702e7e9aa47fd3576c81860c",
+    "bbox": [
+      0.08,
+      0.33,
+      0.55,
+      0.38
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-06_CERTIFICATE_OF_CONFORMANCE-005",
+    "document_id": "06_CERTIFICATE_OF_CONFORMANCE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"North American Stainless\"",
+    "content_hash": "7868df22279d60f50a3c4db11ad2697a5df78cce702e7e9aa47fd3576c81860c",
+    "bbox": [
+      0.08,
+      0.4,
+      0.6,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-001",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.08,
+      0.4,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-002",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "header",
+    "quote": "\"SA-240 TP304L\"",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.15,
+      0.5,
+      0.2
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-003",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.021",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.3,
+      0.5,
+      0.35
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-004",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "18.211",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.48,
+      0.5,
+      0.53
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-005",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "8.078",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.54,
+      0.5,
+      0.59
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-006",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.277",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.6,
+      0.5,
+      0.65
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-007",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.004",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.72,
+      0.5,
+      0.77
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-008",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.003",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.78,
+      0.5,
+      0.83
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-009",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.0002",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.08,
+      0.84,
+      0.5,
+      0.89
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-07_LADLE_CHEMISTRY-010",
+    "document_id": "07_LADLE_CHEMISTRY",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.044",
+    "content_hash": "2a8a2e21a5b8c8b3fe7dba2b0de5073310d61d9f6ed919de128177abfa9b05b2",
+    "bbox": [
+      0.5,
+      0.72,
+      0.92,
+      0.77
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-08_MECHANICAL_PROPERTIES-001",
+    "document_id": "08_MECHANICAL_PROPERTIES",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "c488feeeb3cb610182c6c61b97398f721d9c70da0f4ae1ba1440a219155feb47",
+    "bbox": [
+      0.08,
+      0.08,
+      0.4,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-08_MECHANICAL_PROPERTIES-002",
+    "document_id": "08_MECHANICAL_PROPERTIES",
+    "page": 1,
+    "region": "header",
+    "quote": "\"SA-240 TP304L\"",
+    "content_hash": "c488feeeb3cb610182c6c61b97398f721d9c70da0f4ae1ba1440a219155feb47",
+    "bbox": [
+      0.08,
+      0.15,
+      0.5,
+      0.2
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-08_MECHANICAL_PROPERTIES-003",
+    "document_id": "08_MECHANICAL_PROPERTIES",
+    "page": 1,
+    "region": "mechanical_table",
+    "quote": "94720",
+    "content_hash": "c488feeeb3cb610182c6c61b97398f721d9c70da0f4ae1ba1440a219155feb47",
+    "bbox": [
+      0.08,
+      0.35,
+      0.6,
+      0.4
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-09_HARDNESS_TABLE-001",
+    "document_id": "09_HARDNESS_TABLE",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "4b204837fee2eba53705a819ec8b0e8c87a655c97b371b56822c3e2ace26654a",
+    "bbox": [
+      0.08,
+      0.08,
+      0.4,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-09_HARDNESS_TABLE-002",
+    "document_id": "09_HARDNESS_TABLE",
+    "page": 1,
+    "region": "hardness_table",
+    "quote": "[14.2, 13.8, 14.5, 13.9, 14.1, 14.3, 14.0, 13.7, null]",
+    "content_hash": "4b204837fee2eba53705a819ec8b0e8c87a655c97b371b56822c3e2ace26654a",
+    "bbox": [
+      0.08,
+      0.3,
+      0.92,
+      0.8
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-001",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "header",
+    "quote": "\"NAS-893611\"",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.55,
+      0.05,
+      0.92,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-002",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.08,
+      0.12,
+      0.4,
+      0.17
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-003",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "header",
+    "quote": "\"SA-240 TP304L\"",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.08,
+      0.19,
+      0.5,
+      0.24
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-004",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "header",
+    "quote": "\"North American Stainless\"",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.08,
+      0.05,
+      0.5,
+      0.1
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-005",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.021",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.08,
+      0.45,
+      0.25,
+      0.5
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-006",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "8.078",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.08,
+      0.51,
+      0.25,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-007",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.044",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.25,
+      0.51,
+      0.42,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-008",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "18.211",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.42,
+      0.51,
+      0.6,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-009",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.277",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.6,
+      0.51,
+      0.78,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-010",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.004",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.78,
+      0.51,
+      0.92,
+      0.56
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-011",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "0.003",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.08,
+      0.57,
+      0.25,
+      0.62
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-012",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "[blank]",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.25,
+      0.57,
+      0.42,
+      0.62
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-10_CERTIFICATE_DUPLICATE_SCAN-013",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "page": 1,
+    "region": "mechanical_table_crop_x430_y690_w260_h90",
+    "quote": "[blank]",
+    "content_hash": "054942b63b1eec5bdf8d5c7ca7650e3ad2ebd4e056f37075467d06ef7dacbdf0",
+    "bbox": [
+      0.52,
+      0.65,
+      0.84,
+      0.76
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-11_MATERIAL_SPEC_OLD_REV1-001",
+    "document_id": "11_MATERIAL_SPEC_OLD_REV1",
+    "page": 1,
+    "region": "header",
+    "quote": "\"SPEC-SA240-304L\"",
+    "content_hash": "6ecf5e3d797c9b4b03014a701da4b676730c531d0115d5ae8a967ef2a1e01277",
+    "bbox": [
+      0.08,
+      0.08,
+      0.55,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-11_MATERIAL_SPEC_OLD_REV1-002",
+    "document_id": "11_MATERIAL_SPEC_OLD_REV1",
+    "page": 1,
+    "region": "header",
+    "quote": "\"INCONEL 725\"",
+    "content_hash": "6ecf5e3d797c9b4b03014a701da4b676730c531d0115d5ae8a967ef2a1e01277",
+    "bbox": [
+      0.08,
+      0.15,
+      0.5,
+      0.2
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-11_MATERIAL_SPEC_OLD_REV1-003",
+    "document_id": "11_MATERIAL_SPEC_OLD_REV1",
+    "page": 1,
+    "region": "header",
+    "quote": "1",
+    "content_hash": "6ecf5e3d797c9b4b03014a701da4b676730c531d0115d5ae8a967ef2a1e01277",
+    "bbox": [
+      0.8,
+      0.08,
+      0.92,
+      0.13
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-11_MATERIAL_SPEC_OLD_REV1-004",
+    "document_id": "11_MATERIAL_SPEC_OLD_REV1",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "18.0",
+    "content_hash": "6ecf5e3d797c9b4b03014a701da4b676730c531d0115d5ae8a967ef2a1e01277",
+    "bbox": [
+      0.08,
+      0.4,
+      0.5,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-11_MATERIAL_SPEC_OLD_REV1-005",
+    "document_id": "11_MATERIAL_SPEC_OLD_REV1",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "20.0",
+    "content_hash": "6ecf5e3d797c9b4b03014a701da4b676730c531d0115d5ae8a967ef2a1e01277",
+    "bbox": [
+      0.5,
+      0.4,
+      0.92,
+      0.45
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-11_MATERIAL_SPEC_OLD_REV1-006",
+    "document_id": "11_MATERIAL_SPEC_OLD_REV1",
+    "page": 1,
+    "region": "chemistry_table",
+    "quote": "8.0",
+    "content_hash": "6ecf5e3d797c9b4b03014a701da4b676730c531d0115d5ae8a967ef2a1e01277",
+    "bbox": [
+      0.08,
+      0.46,
+      0.5,
+      0.51
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-12_FINAL_INSPECTION-001",
+    "document_id": "12_FINAL_INSPECTION",
+    "page": 1,
+    "region": "header",
+    "quote": "\"PN-304L-PLT-0750\"",
+    "content_hash": "7a0ec1a9a675cf6a185bf4bbb8f9c18d41fbef05c9bd368eb36ae01fe1bdca51",
+    "bbox": [
+      0.08,
+      0.15,
+      0.55,
+      0.2
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-12_FINAL_INSPECTION-002",
+    "document_id": "12_FINAL_INSPECTION",
+    "page": 1,
+    "region": "header",
+    "quote": "\"AN4T\"",
+    "content_hash": "7a0ec1a9a675cf6a185bf4bbb8f9c18d41fbef05c9bd368eb36ae01fe1bdca51",
+    "bbox": [
+      0.08,
+      0.22,
+      0.4,
+      0.27
+    ],
+    "evidence_type": "OCR_REGION"
+  },
+  {
+    "evidence_id": "EV-12_FINAL_INSPECTION-003",
+    "document_id": "12_FINAL_INSPECTION",
+    "page": 1,
+    "region": "signoff_block",
+    "quote": "[blank]",
+    "content_hash": "7a0ec1a9a675cf6a185bf4bbb8f9c18d41fbef05c9bd368eb36ae01fe1bdca51",
+    "bbox": [
+      0.08,
+      0.85,
+      0.92,
+      0.95
+    ],
+    "evidence_type": "OCR_REGION"
+  }
+]

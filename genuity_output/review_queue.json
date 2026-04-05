@@ -1,0 +1,262 @@
+[
+  {
+    "exception_id": "EX-001",
+    "field_id": "FD-05_MATERIAL_CERTIFICATE-chemistry.B",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "field_name": "chemistry.B",
+    "status": "PROPOSED_CROSS_DOCUMENT",
+    "candidate": 0.0002,
+    "priority": "NORMAL",
+    "reason_code": "UNAPPROVED_SEMANTIC_SUBSTITUTION",
+    "reason": "Same-heat ladle analysis supplies a candidate, but the domain pack does not permit treating it as the certificate's observed product result.",
+    "evidence_ids": [
+      "EV-05_MATERIAL_CERTIFICATE-012",
+      "EV-07_LADLE_CHEMISTRY-009"
+    ],
+    "required_action": "Confirm whether ladle result may stand for the certificate result.",
+    "suggested_owner": "quality_engineering",
+    "sla_hours": 24,
+    "blocking": true,
+    "dedupe_key": "3a84af6ddeb301dd52d770ed",
+    "safe_for_operational_use": false,
+    "original_extraction": null,
+    "candidate_method": "cross_document_heat_candidate",
+    "confidence": 0.92,
+    "rule_results": [
+      {
+        "rule": "exact_heat_number_join",
+        "result": "PASS",
+        "key": "AN4T"
+      },
+      {
+        "rule": "material_grade_corroboration",
+        "result": "PASS",
+        "value": "INCONEL 725"
+      },
+      {
+        "rule": "certificate_product_equals_ladle",
+        "result": "NOT_CONFIGURED"
+      }
+    ],
+    "alternatives_rejected": [],
+    "requires_human_confirmation": true
+  },
+  {
+    "exception_id": "EX-002",
+    "field_id": "FD-05_MATERIAL_CERTIFICATE-tensile_strength_mpa",
+    "document_id": "05_MATERIAL_CERTIFICATE",
+    "field_name": "tensile_strength_mpa",
+    "status": "UNRESOLVED",
+    "candidate": null,
+    "priority": "CRITICAL",
+    "reason_code": "MISSING_REQUIRED_EVIDENCE",
+    "reason": "Blank in existing OCR output.",
+    "evidence_ids": [
+      "EV-05_MATERIAL_CERTIFICATE-013"
+    ],
+    "required_action": "Obtain source evidence; field is genuinely unresolved.",
+    "suggested_owner": "quality_engineering",
+    "sla_hours": 4,
+    "blocking": true,
+    "dedupe_key": "0fbe6b197074df1a4eaf5842",
+    "safe_for_operational_use": false,
+    "original_extraction": null,
+    "candidate_method": "existing_ocr",
+    "confidence": 0.0,
+    "rule_results": [],
+    "alternatives_rejected": [],
+    "requires_human_confirmation": false
+  },
+  {
+    "exception_id": "EX-003",
+    "field_id": "FD-10_CERTIFICATE_DUPLICATE_SCAN-chemistry.B",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "field_name": "chemistry.B",
+    "status": "PROPOSED_CROSS_DOCUMENT",
+    "candidate": 0.0002,
+    "priority": "NORMAL",
+    "reason_code": "UNAPPROVED_SEMANTIC_SUBSTITUTION",
+    "reason": "Same-heat ladle analysis supplies a candidate, but the domain pack does not permit treating it as the certificate's observed product result.",
+    "evidence_ids": [
+      "EV-10_CERTIFICATE_DUPLICATE_SCAN-012",
+      "EV-07_LADLE_CHEMISTRY-009"
+    ],
+    "required_action": "Confirm whether ladle result may stand for the certificate result.",
+    "suggested_owner": "quality_engineering",
+    "sla_hours": 24,
+    "blocking": true,
+    "dedupe_key": "a14225fa95db19e0a9d66dc6",
+    "safe_for_operational_use": false,
+    "original_extraction": null,
+    "candidate_method": "cross_document_heat_candidate",
+    "confidence": 0.92,
+    "rule_results": [
+      {
+        "rule": "exact_heat_number_join",
+        "result": "PASS",
+        "key": "AN4T"
+      },
+      {
+        "rule": "material_grade_corroboration",
+        "result": "PASS",
+        "value": "INCONEL 725"
+      },
+      {
+        "rule": "certificate_product_equals_ladle",
+        "result": "NOT_CONFIGURED"
+      }
+    ],
+    "alternatives_rejected": [],
+    "requires_human_confirmation": true
+  },
+  {
+    "exception_id": "EX-004",
+    "field_id": "FD-10_CERTIFICATE_DUPLICATE_SCAN-tensile_strength_mpa",
+    "document_id": "10_CERTIFICATE_DUPLICATE_SCAN",
+    "field_name": "tensile_strength_mpa",
+    "status": "UNRESOLVED",
+    "candidate": null,
+    "priority": "CRITICAL",
+    "reason_code": "MISSING_REQUIRED_EVIDENCE",
+    "reason": "Blank in existing OCR output.",
+    "evidence_ids": [
+      "EV-10_CERTIFICATE_DUPLICATE_SCAN-013"
+    ],
+    "required_action": "Obtain source evidence; field is genuinely unresolved.",
+    "suggested_owner": "quality_engineering",
+    "sla_hours": 4,
+    "blocking": true,
+    "dedupe_key": "12c411c41db8a258043531ee",
+    "safe_for_operational_use": false,
+    "original_extraction": null,
+    "candidate_method": "existing_ocr",
+    "confidence": 0.0,
+    "rule_results": [],
+    "alternatives_rejected": [],
+    "requires_human_confirmation": false
+  },
+  {
+    "exception_id": "EX-005",
+    "field_id": "FD-12_FINAL_INSPECTION-inspector_signoff",
+    "document_id": "12_FINAL_INSPECTION",
+    "field_name": "inspector_signoff",
+    "status": "UNRESOLVED",
+    "candidate": null,
+    "priority": "NORMAL",
+    "reason_code": "MISSING_REQUIRED_EVIDENCE",
+    "reason": "Blank in existing OCR output.",
+    "evidence_ids": [
+      "EV-12_FINAL_INSPECTION-003"
+    ],
+    "required_action": "Obtain source evidence; field is genuinely unresolved.",
+    "suggested_owner": "quality_engineering",
+    "sla_hours": 24,
+    "blocking": true,
+    "dedupe_key": "50725c4f27e04c9da95764dc",
+    "safe_for_operational_use": false,
+    "original_extraction": null,
+    "candidate_method": "existing_ocr",
+    "confidence": 0.0,
+    "rule_results": [],
+    "alternatives_rejected": [],
+    "requires_human_confirmation": false
+  },
+  {
+    "exception_id": "EX-006",
+    "field_id": "FD-09_HARDNESS_TABLE-hardness_row_9_col_2_hrc",
+    "document_id": "09_HARDNESS_TABLE",
+    "field_name": "hardness_row_9_col_2_hrc",
+    "status": "ANALYTICS_ONLY",
+    "candidate": 14.05,
+    "priority": "NORMAL",
+    "reason_code": "NON_OPERATIONAL_IMPUTATION",
+    "reason": "Median of visible same-row readings; never represented as a certified measurement.",
+    "evidence_ids": [
+      "EV-09_HARDNESS_TABLE-002"
+    ],
+    "required_action": "Keep outside operational/certified exports.",
+    "suggested_owner": "document_operations",
+    "sla_hours": 72,
+    "blocking": false,
+    "dedupe_key": "d93169bf84abeb98a82788b2",
+    "safe_for_operational_use": false,
+    "original_extraction": null,
+    "candidate_method": "same_row_median_imputation",
+    "confidence": 0.0,
+    "rule_results": [
+      {
+        "rule": "imputation_purpose",
+        "result": "PASS",
+        "purpose": "analytics_only"
+      }
+    ],
+    "alternatives_rejected": [],
+    "requires_human_confirmation": false
+  },
+  {
+    "exception_id": "EX-007",
+    "field_id": "FD-CONNECTED-LTTS-PO-2024-0847-quantity",
+    "document_id": "CONNECTED-LTTS-PO-2024-0847",
+    "field_name": "quantity",
+    "status": "CONFLICT",
+    "candidate": null,
+    "priority": "CRITICAL",
+    "reason_code": "SOURCE_CONFLICT",
+    "reason": "Sources disagree on quantity; source authority is recorded but no value is silently selected.",
+    "evidence_ids": [
+      "EV-01_PURCHASE_ORDER-005",
+      "EV-02_SUPPLIER_INVOICE-005"
+    ],
+    "required_action": "Reconcile source documents; do not load canonical quantity.",
+    "suggested_owner": "procurement_operations",
+    "sla_hours": 4,
+    "blocking": true,
+    "dedupe_key": "8bc96a35c62590d7462930a8",
+    "safe_for_operational_use": false,
+    "original_extraction": [
+      {
+        "document_id": "01_PURCHASE_ORDER",
+        "document_type": "purchase_order",
+        "value": 12,
+        "authority_rank": 1
+      },
+      {
+        "document_id": "02_SUPPLIER_INVOICE",
+        "document_type": "invoice",
+        "value": 11,
+        "authority_rank": 2
+      }
+    ],
+    "candidate_method": "cross_document_conflict_detection",
+    "confidence": 0.0,
+    "rule_results": [
+      {
+        "rule": "cross_document_quantity_equality",
+        "result": "FAIL"
+      },
+      {
+        "rule": "source_authority_order",
+        "result": "RECORDED_NOT_AUTO_APPLIED",
+        "order": [
+          "purchase_order",
+          "invoice"
+        ]
+      }
+    ],
+    "alternatives_rejected": [
+      {
+        "document_id": "01_PURCHASE_ORDER",
+        "document_type": "purchase_order",
+        "value": 12,
+        "authority_rank": 1
+      },
+      {
+        "document_id": "02_SUPPLIER_INVOICE",
+        "document_type": "invoice",
+        "value": 11,
+        "authority_rank": 2
+      }
+    ],
+    "requires_human_confirmation": true
+  }
+]

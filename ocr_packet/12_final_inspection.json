@@ -1,0 +1,10 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "FINAL INSPECTION REPORT\nPROJECT: Jamnagar Refinery HDS Unit\nPART NUMBER: PN-304L-PLT-0750\nMATERIAL: SA-240 TP304L\nHEAT NUMBER: AN4T\nINSPECTION DATE: 2024-03-15\nDIMENSIONAL CHECK: PASS\nSURFACE FINISH: 2B / PASS\nUT EXAMINATION: PASS per SA-435\nVISUAL INSPECTION: PASS\nINSPECTOR SIGNOFF: [not signed - pending final QA approval]",
+  "fields": [
+    {"name": "part_number", "value": "PN-304L-PLT-0750", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.15, 0.55, 0.20]},
+    {"name": "heat_number", "value": "AN4T", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.22, 0.40, 0.27]},
+    {"name": "inspector_signoff", "value": null, "unit": null, "confidence": 0.0, "page": 1, "region": "signoff_block", "bbox": [0.08, 0.85, 0.92, 0.95]}
+  ]
+}

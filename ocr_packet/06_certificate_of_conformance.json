@@ -1,0 +1,12 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "CERTIFICATE OF CONFORMANCE\nNORTH AMERICAN STAINLESS - Acerinox Group\nCOC NUMBER: NAS-COC-2024-1847\nDATE: 2024-02-28\nPO NUMBER: LTTS-PO-2024-0847\nCERTIFICATE NUMBER: NAS-893611\nHEAT NUMBER: AN4T\nSUPPLIER: North American Stainless\nMATERIAL: SA-240 TP304L Stainless Steel Plate\nWe hereby certify that the above referenced material conforms to the requirements of ASME SA-240, ASTM A240, and NACE MR0175/ISO 15156-3:2015.\nMaterial is free of mercury contamination.\nSteel making process: EAF, AOD.\nManufactured in the USA.\nSIGNED: Technical Dept., KRIS LARK",
+  "fields": [
+    {"name": "coc_number", "value": "NAS-COC-2024-1847", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.12, 0.55, 0.17]},
+    {"name": "po_number", "value": "LTTS-PO-2024-0847", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.19, 0.55, 0.24]},
+    {"name": "certificate_number", "value": "NAS-893611", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.26, 0.55, 0.31]},
+    {"name": "heat_number", "value": "AN4T", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.33, 0.55, 0.38]},
+    {"name": "supplier", "value": "North American Stainless", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.40, 0.60, 0.45]}
+  ]
+}

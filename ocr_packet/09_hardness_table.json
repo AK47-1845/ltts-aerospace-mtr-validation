@@ -1,0 +1,9 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "HARDNESS TEST TABLE\nHEAT NUMBER: AN4T\nMATERIAL: SA-240 TP304L\nHRC Readings across plate surface:\nRow 1: 14.2, 13.8, 14.5\nRow 2: 13.9, 14.1, 14.3\nRow 3: 14.0, 13.7, [smudged]",
+  "fields": [
+    {"name": "heat_number", "value": "AN4T", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.08, 0.40, 0.13]},
+    {"name": "hardness_readings_hrc", "value": [14.2, 13.8, 14.5, 13.9, 14.1, 14.3, 14.0, 13.7, null], "unit": "HRC", "confidence": 0.95, "page": 1, "region": "hardness_table", "bbox": [0.08, 0.30, 0.92, 0.80]}
+  ]
+}

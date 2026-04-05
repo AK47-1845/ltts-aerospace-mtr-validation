@@ -1,0 +1,10 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "MECHANICAL PROPERTIES\nHEAT NUMBER: AN4T\nMATERIAL: SA-240 TP304L\nTEST RESULTS:\nTENSILE STRENGTH: 94720 psi\nYIELD STRENGTH: 0.2% Offset: 47.50 ksi\nELONGATION: 56.8% in 2 inch\nREDUCTION OF AREA: 76.59%\nHARDNESS: 82 HRB",
+  "fields": [
+    {"name": "heat_number", "value": "AN4T", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.08, 0.40, 0.13]},
+    {"name": "material_grade", "value": "SA-240 TP304L", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.15, 0.50, 0.20]},
+    {"name": "tensile_strength_mpa", "value": 94720, "unit": "MPa", "confidence": 0.97, "page": 1, "region": "mechanical_table", "bbox": [0.08, 0.35, 0.60, 0.40]}
+  ]
+}

@@ -1,0 +1,6 @@
+document_id,heat_number,property,value,unit,status,acceptance,safe_for_operational_use,analytics_only,evidence_ids
+05_MATERIAL_CERTIFICATE,AN4T,tensile_strength_mpa,,MPa,MISSING,NOT_ACCEPTED,False,False,"[""EV-05_MATERIAL_CERTIFICATE-013""]"
+08_MECHANICAL_PROPERTIES,AN4T,tensile_strength_mpa,653.071411,MPa,RECOVERED_UNIT,ACCEPTED,True,False,"[""EV-08_MECHANICAL_PROPERTIES-003""]"
+09_HARDNESS_TABLE,AN4T,hardness_readings_hrc,"[14.2, 13.8, 14.5, 13.9, 14.1, 14.3, 14.0, 13.7, null]",HRC,OBSERVED,ACCEPTED,True,False,"[""EV-09_HARDNESS_TABLE-002""]"
+10_CERTIFICATE_DUPLICATE_SCAN,AN4T,tensile_strength_mpa,,MPa,MISSING,NOT_ACCEPTED,False,False,"[""EV-10_CERTIFICATE_DUPLICATE_SCAN-013""]"
+09_HARDNESS_TABLE,AN4T,hardness_row_9_col_2_hrc,14.05,HRC,ANALYTICS_ONLY,ANALYTICS_ONLY,False,True,"[""EV-09_HARDNESS_TABLE-002""]"

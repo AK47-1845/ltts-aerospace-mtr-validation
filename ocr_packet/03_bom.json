@@ -1,0 +1,12 @@
+{
+  "adapter": "nas_stainless_ocr_v1",
+  "page_count": 1,
+  "text": "BILL OF MATERIALS\nPROJECT: Jamnagar Refinery HDS Unit - Reactor Vessel Shell\nBOM NUMBER: BOM-HDS-304L-R2\nREVISION: 2\nPART NUMBER: PN-304L-PLT-0750\nMATERIAL: SA-240 TP 304L per ASME SA-240\nSPECIFICATION NUMBER: SPEC-SA240-304L\nTHICKNESS: 0.750 inch\nWIDTH: 48.000 inch\nLENGTH: 120.000 inch\nQUANTITY: 12\nNACE COMPLIANCE: Required per MR0175/ISO 15156\nWELD PROCEDURE: WPS-304L-GTAW-01",
+  "fields": [
+    {"name": "bom_number", "value": "BOM-HDS-304L-R2", "unit": null, "confidence": 0.99, "page": 1, "region": "header", "bbox": [0.08, 0.12, 0.55, 0.17]},
+    {"name": "part_number", "value": "PN-304L-PLT-0750", "unit": null, "confidence": 0.99, "page": 1, "region": "line_items", "bbox": [0.08, 0.30, 0.55, 0.35]},
+    {"name": "material_grade", "value": "SA-240 TP 304L", "unit": null, "confidence": 0.99, "page": 1, "region": "line_items", "bbox": [0.08, 0.36, 0.50, 0.41]},
+    {"name": "specification_number", "value": "SPEC-SA240-304L", "unit": null, "confidence": 0.99, "page": 1, "region": "line_items", "bbox": [0.08, 0.42, 0.55, 0.47]},
+    {"name": "quantity", "value": 12, "unit": "pcs", "confidence": 0.99, "page": 1, "region": "line_items", "bbox": [0.60, 0.30, 0.75, 0.35]}
+  ]
+}
