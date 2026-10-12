@@ -1,17 +1,30 @@
-# Aerospace MTR Validation Engine 🚀
+# Aerospace MTR Validation Demo (LTTS context)
 
-This repository contains the validation architecture used to prove that synthetically generated aerospace data can perfectly mimic real-world flight test data. 
+Demonstration of document-trust reconciliation on an aerospace MTR chain:
+12 SA-240 304L documents reconciled into database-ready records. Built by
+Genuity IO; the reconciliation engine behind it lives in
+[genuity-reconcile](https://github.com/AK47-1845/genuity-reconcile).
 
-## The Core Problem
-Aerospace engineering teams (like at L&T Technology Services) cannot safely generate enough edge-case flight data to train anomaly detection models. Generating synthetic data is easy; proving it is statistically indistinguishable from physical reality is the hardest problem in AI.
+## What's inside
 
-## The Gauntlet
-This engine ran a **92-run testing gauntlet across 9 different AI model families**. 
-We trained models exclusively on synthetic sensor readings and evaluated them against models trained on actual physical flight data.
+- `LTTS_DEMO_DASHBOARD.html` — open in a browser: the demo dashboard.
+- `LTTS_PITCH_DECK.md` / `.html` / `.pptx` — pitch narrative in three formats.
+- `LTTS_DEMO_PRESENTATION.md` — demo script.
+- `ltts_sa240_304l_domain_pack.json` — the domain pack (grades, specs, rules).
+- `ocr_packet/` — sample OCR inputs; `genuity_output/` — reconciled outputs.
+- `MTR Validation.pdf` — writeup; `monday.md` — working notes.
 
-## Results 🏆
-**TSTR (Train on Synthetic, Test on Real) Composite F1 Score: 0.9965**
+## Result (measured, demo scope)
 
-The engineering team could not statistically distinguish the synthetic data from physical reality. This repository contains the deterministic reconciliation logic that bridged the sim-to-real gap.
+12-document SA-240 304L chain reconciled in under a second on the demo
+machine. Scope honesty: this demonstrates the pipeline on one document
+family — it is not a claim about all MTRs, all mills, or production
+deployment.
 
-> "Validation has to be re-earned for every physical environment, not claimed once and reused."
+## View it
+
+No install: download and open `LTTS_DEMO_DASHBOARD.html`. To run the engine
+itself, see [genuity-reconcile](https://github.com/AK47-1845/genuity-reconcile).
+
+> "Validation has to be re-earned for every physical environment, not claimed
+> once and reused."
